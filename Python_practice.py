@@ -80,7 +80,7 @@ counties_dict
 
 # To get only the keys
 counties_dict.keys()
-# retrieve only the values
+# retrieve only the values from dictionary
 counties_dict.values()
 # Get a Specific Value
 counties_dict.get("Denver")
@@ -92,7 +92,7 @@ counties_dict.get("Arapahoe")
 print(counties_dict['Arapahoe'])
 print(counties_dict.get("Arapahoe")) 
 # same quest but w/o quotes (single or double)
-counties_dict[Arapahoe]
+# counties_dict[Arapahoe]
 # INCLUDE the quotes
 counties_dict['Arapahoe']
 counties_dict["Arapahoe"]
@@ -109,14 +109,25 @@ voting_data.append({"county":"Jefferson", "registered_voters": 432438})
 #test voting data dict
 voting_data
 
-#quiz Add El Paso & reg voters to 2nd position
+#QUIZ-1 Add El Paso & reg voters to 2nd position
 voting_data.append({"county": "El Paso", "registered_voters":461149})
 #test voting data dict
 voting_data
 
-#quiz Remove Arapanhoe & voters
+#QUIZ-2 Remove Arapanhoe & voters
 voting_data.remove({"county":"Arapahoe", "registered_voters": 422829})
 #test voting data dict
 voting_data
 
-#Keep Jefferson in 2nd but Move Denver & voters to 3rd
+#QUIZ-3 Keep Jefferson in 2nd but Move Denver to 3rd
+voting_data.remove({"county": "Jefferson", "registered_voters": 432438})
+voting_data.remove({"county":"Denver", "registered_voters": 463353})
+voting_data.append({"county": "Jefferson", "registered_voters": 432438})
+voting_data.append({"county":"Denver", "registered_voters": 463353})
+voting_data
+
+#QUIZ-4 Arapanhoe & registered voters
+voting_data.append({"county":"Arapahoe", "registered_voters": 422829})
+voting_data
+
+
