@@ -130,4 +130,68 @@ voting_data
 voting_data.append({"county":"Arapahoe", "registered_voters": 422829})
 voting_data
 
+# 3.2.8 Practice DECISION STATEMENTS
+# How many votes did you get?
+my_votes=int(input("How many votes did you get in the election? "))
+
+#  Total votes in the election
+total_votes=int(input("What is the total votes in the election? "))
+
+# Calculate the percentage of votes you received.
+percentage_votes=(my_votes/total_votes) * 100
+print("I received " + str(percentage_votes)+"% of the total votes.")
+
+#Per 3.2.8 lesson: Create new file named python_practice.py.  BUT I've been in python_practice.py this entire time.  Confused.
+counties = ["Arapahoe","Denver","Jefferson"]
+if counties[1] == 'Denver':
+   print(counties[1])
+#Code is GOOD here
+
+#3.2.9 MEMBERSHIP & LOGICAL OPERATORS
+
+#Practice creating a membership operation
+counties = ["Arapahoe","Denver","Jefferson"]
+if "El Paso" in counties:
+    print("El Paso is in the list of counties.")
+else:
+    print("El Paso is not the list of counties.")
+
+#3.2.10 REPETITION STATEMENTS : Create/Implement FOR LOOP by iterating thru list of counties.
+counties = ["Arapahoe","Denver","Jefferson"]
+counties
+for county in counties:
+    print(county)
+
+    numbers = [0, 1, 2, 3, 4]
+for num in numbers:
+    print(num)
+
+for num in range(5):
+    print(num)
+
+for i in range(len(counties)):
+    print(counties[i])
+
+#3.2.10 Iterate Through a Dictionary
+#Practice getting the keys and values from a dictionary
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+counties_dict
+
+for county in counties_dict:
+    print(county)
+
+for county in counties_dict.keys():
+    print(county)
+
+# #Get the Values of a Dictionary
+# for voters in counties_dict.values():
+#     print(voters)
+
+#3.2.10 modify the for loop and use the key, county to reference the value
+for county in counties_dict:
+    print(counties_dict[county])
+
+#Another method get() method
+for county in counties_dict:
+    print(counties_dict.get(county))
 
