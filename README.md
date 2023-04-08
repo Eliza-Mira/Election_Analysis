@@ -1,6 +1,3 @@
-# Election_Analysis
-M3 practice
-
 ## Election_Analysis
 
 ### Overview:
@@ -27,9 +24,22 @@ The Colorado Board of Elections requested for assistance in running an elections
 - Denver: 82.8% (306,055)
 - Arapahoe: 6.7% (24,801)
 
+___
+
 _The county of **DENVER** had the highest voter turnout, with a total of **306,055 votes**, representing **82.8%**_
 
-**OVERALL CANDIDATE BREAKDOWN**
-Insert IMAGE HERE 
+___
 
-Diana DeGette, who received 73.8% of the votes and 272,892 number of votes.
+**OVERALL CANDIDATE BREAKDOWN**
+
+![](https://github.com/Eliza-Mira/Election_Analysis/blob/master/analysis/CandidateBreakdownScreenshot.png)
+
+___
+
+_**Diana DeGette**, the clear election winner, with a total of **272,892 votes**, representing **73.8%**._
+
+___
+
+`Terminal output`
+
+![](https://github.com/Eliza-Mira/Election_Analysis/blob/master/analysis/ElectionResults_ScriptScreenshot.png)
