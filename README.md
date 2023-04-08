@@ -40,6 +40,4 @@ _**Diana DeGette**, the clear election winner, with a total of **272,892 votes**
 
 ___
 
-`Terminal output`
 
-![](https://github.com/Eliza-Mira/Election_Analysis/blob/master/analysis/ElectionResults_ScriptScreenshot.png)
